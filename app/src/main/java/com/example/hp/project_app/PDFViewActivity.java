@@ -66,6 +66,7 @@ public class PDFViewActivity extends AppCompatActivity implements OnPageChangeLi
 
     }
 
+    // print booksmark tree
     public void printBookmarksTree(List<PdfDocument.Bookmark> tree, String sep) {
         for (PdfDocument.Bookmark b : tree) {
 
